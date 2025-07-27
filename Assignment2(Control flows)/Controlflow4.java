@@ -4,7 +4,7 @@ public class Controlflow4{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter today's day (0=Sun, 1=Mon, ..., 6=Sat): ");
+        System.out.print("Enter today's day: ");
         int today = sc.nextInt();
 
         System.out.print("Enter the number of days elapsed since today: ");
