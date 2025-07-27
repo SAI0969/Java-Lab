@@ -4,7 +4,7 @@ class Controlflow2{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the lottery pick(two digits): ");
 		int guess = sc.nextInt();
-		int lottery = Math.random() * 100 ;
+		int lottery = (int)(Math.random() * 100) ;
 
 
 		int lot1 = lottery / 10;
